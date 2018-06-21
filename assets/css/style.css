@@ -17,13 +17,15 @@ th p {
     padding: 0;
 }
 
-th div {
+th div p {
     position: relative;
     bottom: 80px;
     z-index: 2;
 }
 
 th img {
+    margin: 0;
+    padding: 0;
     position: relative;
     z-index: 1;
 }
@@ -170,7 +172,7 @@ a:hover {
     margin-bottom: 15px;
 }
 
-th {
+th, th div {
     width: 250px;
     height: 200px;
     padding: 0;
